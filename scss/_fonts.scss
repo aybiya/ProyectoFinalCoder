@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$mainFont:'Raleway', sans-serif;
+$secondaryfont:'DM Serif Text', serif;
+
+$textLg:2em;
+$textMd:1.8em;
+$textSm:1.2em;
+$textXs:1em;
+
+$textBold:700;
+$textSemiBold:600;
+$textRegular:400;
+$textLight:300;
+
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}

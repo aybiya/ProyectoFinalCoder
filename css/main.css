@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Text", serif;
+}
+
+h1 {
+  color: #A680BF;
+  font-size: 2em;
+}
+h1::before {
+  content: url(../img/iconos/icono-index1.png);
+}
+h1::after {
+  content: url(../img/iconos/icono-index2.png);
+}
+
+h2 {
+  color: #E895C8;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #3C3D40;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+}
+p::selection {
+  color: #565759;
+  background: #FFC9CC;
+}
+
+body {
+  background-color: #EBEDF2;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+@media (min-width: 600px) {
+  body {
+    background-image: url(../img/bgs/abstract-2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+}
+
+/*Encabezado Fluid*/
+.encabezadoImgFluid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*Contenedores info*/
+.contenedorInfo, #asesorias, #sobreMi, #serviciosAsesorias, #serviciosDg, #inicioInfo {
+  margin: 20px auto;
+  border-radius: 5px;
+  border: solid #D2D4D9 1px;
+  background-color: rgb(250, 250, 250);
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+/*Navbar*/
+#botonera {
+  background-color: rgb(64, 62, 69);
+}
+#botonera img {
+  width: 150px;
+}
+#botonera ul li a {
+  color: rgba(242, 242, 242, 0.7);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+}
+#botonera ul li a:hover {
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+#botonera ul li a:visited {
+  color: #EBEDF2;
+  cursor: pointer;
+}
+
+/*Info Inicio*/
+#inicioInfo:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+  #inicioInfo:hover {
+    transform: translateX(-60px);
+    cursor: pointer;
+  }
+}
+
+/*Img Inicio*/
+.img-inicio:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
+@media (min-width: 320px) {
+  .img-inicio {
+    border-radius: 20px;
+    height: 200px;
+  }
+}
+@media (min-width: 600px) {
+  .img-inicio {
+    border-radius: 50px;
+    height: 400px;
+    padding: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .img-inicio {
+    height: 450px;
+  }
+}
+@media (min-width: 999px) and (max-width: 1400px) {
+  .img-inicio:hover {
+    transform: translateX(60px);
+    cursor: pointer;
+  }
+}
+
+#serviciosAsesorias:hover, #serviciosDg:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
+
+/*Info Sobre mi*/
+#sobreMi:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+/*Img Aybi*/
+.img-aybi-c {
+  border-radius: 150px;
+}
+.img-aybi-c:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.img-aybi-v {
+  border-radius: 40px;
+}
+.img-aybi-v:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/*Asesorias*/
+#asesorias:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/*Botones Formulario*/
+#btnEnviar {
+  background-color: rgb(64, 62, 69);
+  color: rgb(250, 250, 250);
+}
+
+#btnEnviar:hover {
+  background-color: #999999;
+}
+
+#btnCancelar {
+  background-color: #DB2B30;
+  color: rgb(250, 250, 250);
+}
+
+#btnCancelar:hover {
+  background-color: #BF1412;
+}
+
+/*Footer*/
+.pie {
+  text-align: center;
+  padding: 1px 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(64, 62, 69);
+}
+.pie .pieAyLogo {
+  width: 50px;
+}
+.pie .pieLogos {
+  width: 20px;
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=main.css.map */

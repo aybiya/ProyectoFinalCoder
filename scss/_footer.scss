@@ -1,0 +1,23 @@
+// Footer
+
+/*Footer*/
+
+.pie{
+	text-align: center;
+	padding: 1px 0;
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: $greyColor;
+
+	.pieAyLogo{
+	width: 50px;	
+	}
+	.pieLogos{
+	width: 20px;
+	margin: 5px 0;	
+	}
+	
+}
+

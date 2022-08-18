@@ -1,0 +1,40 @@
+// anidación Navbar
+/*Navbar*/
+#botonera{
+	background-color: $greyColor;
+
+	img{
+		width: 150px;
+	}
+
+	ul{
+		li{
+			a{
+				color: map-get($map:$paleta,$key:'blancoO');
+				font-family: $mainFont;
+				font-size: $textSm;
+
+					&:hover{
+						color: $white;
+						cursor: pointer;
+
+					}
+
+					&:visited{
+						color: map-get($map:$paleta,$key:'grisB');
+						cursor: pointer;
+					}
+
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+

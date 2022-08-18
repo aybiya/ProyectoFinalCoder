@@ -1,0 +1,63 @@
+
+h1, 
+h2,
+h3{
+	font-family: $secondaryfont;
+}
+
+h1{
+	color: $mainColor;
+	font-size: $textLg;
+
+	&::before{
+	  content: url(../img/iconos/icono-index1.png);
+	}
+
+	&::after{
+	  content: url(../img/iconos/icono-index2.png);
+	}
+}
+
+
+h2{
+	color: $secondaryColor;
+	font-size: $textMd;
+}
+
+p{
+	@include text(1.4em, center);
+
+	&::selection {
+  		color: map-get($map:$paleta,$key:'gris');
+  		background: map-get($map:$paleta,$key:'rosaL');
+		}
+}
+
+body{
+	background-color: map-get($map:$paleta,$key:'grisB');
+	background-attachment: fixed;
+	overflow-x: hidden;
+	
+	@include medias(tablet){
+		background-image: url(../img/bgs/abstract-2.jpg);
+		background-repeat: repeat;
+		background-attachment: fixed;
+	}
+
+}
+
+/*Encabezado Fluid*/
+.encabezadoImgFluid{
+	width: $w-100;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*Contenedores info*/
+.contenedorInfo{
+	margin: 20px auto;
+	border-radius: 5px;
+	border: solid map-get($map:$paleta,$key:'grisL') 1px;
+	background-color: $white;
+}
+
+

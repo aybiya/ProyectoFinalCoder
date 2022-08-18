@@ -1,0 +1,39 @@
+// Pag Sobre Mi
+/*Info Sobre mi*/
+#sobreMi{
+	
+	@extend .contenedorInfo;
+
+	&:hover{
+	transform: scale(1.08);
+	cursor: pointer;
+	}
+}
+
+/*Img Aybi*/
+.img-aybi-c{
+
+	border-radius: 150px;
+
+	&:hover{
+	transform: scale(1.03);
+	cursor: pointer;
+	}
+
+}
+
+
+
+.img-aybi-v{
+
+	border-radius: 40px;
+
+	&:hover{
+	transform: scale(1.03);
+	cursor: pointer;
+	}
+
+}
+
+
+

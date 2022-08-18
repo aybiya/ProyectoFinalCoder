@@ -1,0 +1,50 @@
+// info pages
+
+/*Info Inicio*/
+#inicioInfo{
+	
+	@extend .contenedorInfo;
+
+	&:hover{
+	transform: translateY(10px);
+	cursor: pointer;
+	}
+
+	@media (min-width: 1000px) and (max-width: 1400px){
+		&:hover{
+		transform: translateX(-60px);
+		cursor: pointer;
+		}
+	}
+}
+
+/*Img Inicio*/
+.img-inicio{
+
+	&:hover{
+	transform: translateY(10px);
+	cursor: pointer;
+	}
+
+	@include medias(mobile){
+		border-radius: 20px;
+		height: 200px;
+	}
+	@include medias(tablet){
+		border-radius: 50px;
+		height: 400px;
+		padding: 30px;
+	}
+	@include medias(desktop){
+		height: 450px;
+	}
+
+	@media (min-width: 999px) and (max-width: 1400px){
+
+		&:hover{
+		transform: translateX(60px);
+		cursor: pointer;
+		}
+	}
+
+}

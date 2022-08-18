@@ -1,0 +1,14 @@
+// pag asesorias 
+
+/*Asesorias*/
+
+#asesorias{
+	
+	
+	@extend .contenedorInfo;
+
+	&:hover{
+	transform: scale(1.03);
+	cursor: pointer;
+	}
+}

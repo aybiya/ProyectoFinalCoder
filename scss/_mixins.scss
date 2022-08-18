@@ -1,0 +1,49 @@
+//mixins
+
+//textos
+@mixin text($lineHeight, $align){
+	font-size: $textSm;
+	line-height: $lineHeight;
+	color: $greyColor;
+	font-family: $mainFont;
+	padding: 10px 20px;
+	@if $align==left{text-align: left}
+	@if $align==right{text-align: right}
+	@if $align==center{text-align: center}
+}
+
+
+//mediaq
+@mixin medias($breakpoint){
+	@if $breakpoint == mobile{
+		@media (min-width: 320px){
+			@content;
+		}
+	}
+	@if $breakpoint == tablet{
+		@media (min-width: 600px){
+			@content;
+		}
+	}
+	@if $breakpoint == desktop{
+		@media (min-width: 1200px){
+			@content;
+		}
+	}
+}
+
+
+
+//maps
+$paleta:(
+	'lilaL': #D99CC9,
+    'rosa': #BF567D,
+    'rosaL':#FFC9CC,
+    'rosaB':#FAE4E1,
+    'gris': #565759,
+    'grisL': #D2D4D9,
+    'grisB':#EBEDF2,
+    'blancoO':rgba(242, 242, 242, 0.7),
+    'blancoL':rgb(246, 246, 246));
+
+
