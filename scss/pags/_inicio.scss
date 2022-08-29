@@ -15,8 +15,21 @@
 		transform: translateX(-60px);
 		cursor: pointer;
 		}
-	}
+	} 
 }
+
+#btnInfo{
+	background-color: map-get($map:$paleta,$key:'rosa');
+	color: $white;
+	font-family: $mainFont;
+	font-size: $textXs;
+
+		&:hover {
+  			background-color: map-get($map:$paleta,$key:'rosaL');
+  			color: map-get($map:$paleta,$key:'rosa');
+		}
+}
+
 
 /*Img Inicio*/
 .img-inicio{
@@ -48,3 +61,4 @@
 	}
 
 }
+

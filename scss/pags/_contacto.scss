@@ -5,6 +5,8 @@
 #btnEnviar{
 	background-color:$greyColor;
 	color: $white;
+	font-family: $mainFont;
+	font-size: $textXs;
 }
 
 	#btnEnviar:hover {
@@ -15,6 +17,8 @@
 #btnCancelar{
 	background-color: #DB2B30;
 	color: $white;
+	font-family: $mainFont;
+	font-size: $textXs;
 }
 
 	#btnCancelar:hover {

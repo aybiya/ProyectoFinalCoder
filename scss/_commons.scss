@@ -1,7 +1,6 @@
 
 h1, 
-h2,
-h3{
+h2,{
 	font-family: $secondaryfont;
 }
 
@@ -29,7 +28,7 @@ p{
 
 	&::selection {
   		color: map-get($map:$paleta,$key:'gris');
-  		background: map-get($map:$paleta,$key:'rosaL');
+  		background: map-get($map:$paleta,$key:'lilaB');
 		}
 }
 
@@ -59,5 +58,4 @@ body{
 	border: solid map-get($map:$paleta,$key:'grisL') 1px;
 	background-color: $white;
 }
-
 

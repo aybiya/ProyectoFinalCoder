@@ -1,0 +1,24 @@
+// page portfolio
+
+/*btn cards*/
+#btnCards{
+
+	@extend #btnInfo;
+	background-color: map-get($map:$paleta,$key:'grisL');
+
+	&:hover{
+	background-color: map-get($map:$paleta,$key:'lilaB');
+	color: map-get($map:$paleta,$key:'gris');
+	cursor: pointer;
+	}
+}
+
+
+.title-card{
+	@include text(1em, center);
+
+	color: map-get($map:$paleta,$key:'gris');
+	font-size: $textSm;
+	font-weight: $textSemiBold;
+}
+
