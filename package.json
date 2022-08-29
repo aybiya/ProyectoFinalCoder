@@ -1,5 +1,5 @@
 {
-  "name": "repo-6",
+  "name": "Proyecto Final Coder",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,13 +13,13 @@
     "sass": "^1.54.0"
   },
   "devDependencies": {},
-  "description": "desafío coder SASS II y SEO",
+  "description": "Proyecto Final de la cursada, Desarrollo Web Coder",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aybiya/3E-PF-Coder.git"
+    "url": "git+https://github.com/aybiya/ProyectoFinalCoder.git"
   },
   "bugs": {
-    "url": "https://github.com/aybiya/3E-PF-Coder/issues"
+    "url": "https://github.com/aybiya/ProyectoFinalCoder/issues"
   },
-  "homepage": "https://github.com/aybiya/3E-PF-Coder#readme"
+  "homepage": "https://github.com/aybiya/ProyectoFinalCoder#readme"
 }
